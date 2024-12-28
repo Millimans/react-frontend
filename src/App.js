@@ -8,6 +8,7 @@ import About from "./About";
 import Login from "./Login";
 import NoRidesFound from "./NoRidesFound";
 import AddRoute from "./AddRoute";
+import OfferRide from "./OfferRide";
 import "./App.css";
 
 function App() {
@@ -31,6 +32,9 @@ function App() {
             <Link to="/AddRoute" style={styles.link}>
               Add Route
             </Link>
+            <Link to="/OfferRide" style={styles.link}>
+              Offer Ride
+            </Link>
           </nav>
 
           {/* Routes */}
@@ -48,6 +52,7 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/NoRidesFound" element={<NoRidesFound />} />
             <Route path="/AddRoute" element={<AddRoute />} />
+            <Route path="/OfferRide" element={<OfferRide />} />
 
             {/* Add Signup route */}
           </Routes>
