@@ -1,0 +1,19 @@
+.NoRidesFound {
+  margin: 0 auto;
+}
+
+.NoRidesFound h2 {
+  font-weight: 700;
+  margin: 20px;
+}
+
+
+.NoRidesFound .ride-alert{
+    background-color: #e7faff;
+    padding: 10px;
+    margin: 45px auto;
+}
+
+.NoRidesFound strong{
+    font-weight: 500;
+}

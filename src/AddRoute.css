@@ -1,0 +1,8 @@
+.AddRoute {
+  padding: 20px;
+}
+
+.info p {
+  margin-top: 10px; /* Adds space above the paragraph */
+  display: block;  /* Ensures that the paragraph is block-level */
+}
